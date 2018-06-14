@@ -1,0 +1,95 @@
+
+h1 {
+    color: #777;
+}
+
+/*===================== sidebar options style ===========================*/
+.moon-sidebar-preview {
+    padding: 15px;
+    background: #333;
+    position: absolute;
+    right: 10%;
+    margin-top: 85px;
+    border-radius: 5px;
+    width: 220px
+}
+
+.moon-sidebar-preview .moon-picture {
+    width: 109px;
+    height: 109px;
+    border-radius: 50%;
+    margin: 5px auto;
+    border: 2px solid#FAFAFA;
+    padding: 10px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.moon-sidebar-preview .moon-fullname {
+    text-align: center;
+    padding: 5px;
+    margin: 2px auto;
+    color: #FAFAFA;
+}
+
+.moon-sidebar-preview .moon-desc {
+    text-align: center;
+    margin: 2px auto;
+    width: 90%;
+    height: auto;
+    padding: 10px 0 10px;
+    color: #FAFAFA;
+}
+
+.moon-sidebar-preview .moon-social {
+    text-align: center;
+    padding: 4px;
+    color: #FAFAFA; 
+}
+
+.moon-sidebar-preview .moon-social i {
+    font-size: 17px;
+    margin: 4px;
+    color: #fff;
+}
+.moon-sidebar-preview .moon-social i:hover,
+.moon-sidebar-preview .moon-social i:focus {
+    color: #FF0;
+}
+/* Remove link style */
+
+.remove-pic {
+    text-decoration: none;
+    margin: 5px;
+    display: inline-block;
+}
+
+/* style for media query [mobile responsive] */
+
+@media (min-width: 768px) {
+    .moon-sidebar-preview {
+        right: 10%;
+    }
+}
+
+@media (max-width: 767px) {
+    .moon-sidebar-preview {
+        right: 35%;
+        top: 80%
+    }
+}
+
+@media (min-width: 992px) {
+    .moon-sidebar-preview {
+        right: 8%
+    }
+
+}
+
+@media (min-width: 332px) and (max-width: 352px) {
+    .moon-sidebar-preview {
+        right: 20%
+    }
+}

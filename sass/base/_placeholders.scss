@@ -1,0 +1,6 @@
+%backgroun-gradient {
+// Permalink - use to edit and share this gradient:
+// http://colorzilla.com/gradient-editor/#4c4c4c+0,595959+12,666666+25,474747+39,2c2c2c+50,111111+60,000000+75,1c1c1c+91,2b2b2b+100,131313+100&0+0,0.9+71;Gradient
+@include filter-gradient(#004c4c4c, #e6131313, vertical); // IE6-9
+@include background-image(linear-gradient(top, rgba(76,76,76,0) 0%,rgba(89,89,89,0.15) 12%,rgba(102,102,102,0.32) 25%,rgba(71,71,71,0.5) 39%,rgba(44,44,44,0.64) 50%,rgba(17,17,17,0.76) 60%,rgba(5,5,5,0.9) 71%,rgba(0,0,0,0.9) 75%,rgba(28,28,28,0.9) 91%,rgba(19,19,19,0.9) 100%));
+}

@@ -1,0 +1,49 @@
+// Mixin
+
+// make a animation trnasition
+@mixin animate($attr, $time) {
+    -webkit-transition: $attr $time ease;
+    -moz-transition: $attr $time ease;
+    -o-transition: $attr $time ease;
+    transition: $attr $time ease;
+}
+
+// make a transform mixin
+@mixin transform($val) {
+    -webkit-transform: $val;
+    -moz-transform: $val;
+    -o-transform: $val;
+    transform: $val;
+}
+
+// box shadow
+
+@mixin shadow($x, $y, $blur, $color, $inset:"") {
+    -webkit-box-shadow: $x $y $blur  $color #{$inset};
+    -moz-box-shadow: $x $y $blur  $color #{$inset};
+    -o-box-shadow: $x $y $blur  $color #{$inset};
+    box-shadow: $x $y $blur  $color #{$inset};
+}
+
+//
+@keyframes spin {
+  form {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to   {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);   }
+}
+
+
+// full width mixin
+
+@mixin fullWidth() {
+	width: 100%;
+	height: auto;
+}
